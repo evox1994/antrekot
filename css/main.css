@@ -135,7 +135,7 @@ body {
 	opacity: 0.5;
 }
 .header-nav > ul > li.active a {
-	color: #26a683;
+	color: #f4e34f;
 	opacity: 1;
 }
 /*Кнопки корзины в хедере desktop*/
@@ -149,14 +149,14 @@ body {
 	width: 100%;
 	padding: 10px;
 	border-radius: 4px;
-	background-color: #a6ea00;
-	color: #000000;
+	background-color: #e30613;
+	color: #ffffff;
 	font-size: 14px;
 	overflow: hidden;
 	white-space: nowrap;
 }
 .header .cart-btn:hover {
-	background-color: #84c800;
+	background-color: #c10401;
 }
 .header .cart-btn span {
 	display: inline-block;
@@ -181,7 +181,7 @@ body {
 	vertical-align: middle;
 	margin-left: 11px;
 	padding-left: 10px;
-	border-left: 1px solid #000000;
+	border-left: 1px solid #ffffff;
 }
 .header .cart-drop {
 	display: none;
@@ -559,7 +559,7 @@ body {
 	margin-right: 0;
 }
 .b-menu-nav .nav ul > li.active a {
-	color: #26a683;
+	color: #f4e34f;
 }
 
 
@@ -763,24 +763,24 @@ body {
 	border-radius: 4px;
 	padding: 10px;
 	font-size: 14px;
-	color: #000000;
-	background-color: #a6ea00;
+	color: #ffffff;
+	background-color: #e30613;
 	text-align: center;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
 .b-btn:hover {
-	background-color: #84c800;
+	background-color: #c10401;
 }
 .b-btn.border {
-	border: 1px solid #a6ea00;
+	border: 1px solid #e30613;
 	background-color: transparent;
-	color: #a6ea00;
+	color: #e30613;
 	padding: 9px 10px;
 }
 .b-btn.border:hover {
-	background-color: #a6ea00;
-	color: #000000;
+	background-color: #e30613;
+	color: #ffffff;
 }
 
 /*Стили стандартного текстового блока*/
@@ -1006,7 +1006,7 @@ body {
 .b-new-products .card .content .price, .b-cart-recomended .card .content .price {
 	font-size: 21px;
 	font-weight: 700;
-	color: #a6ea00;
+	color: #e30613;
 	line-height: 1.2;
 	width: calc(100% - 90px);
 }
@@ -1224,11 +1224,11 @@ body {
 	white-space: nowrap;
 	padding: 8px 18px;
 	border-radius: 100px;
-	background-color: #26a683;
+	background-color: #f4e34f;
 	font-size: 14px;
 	font-weight: 800;
 	font-style: italic;
-	color: #ffffff;
+	color: #333333;
 	text-transform: uppercase;
 	line-height: 1;
 	margin-right: 10px;
@@ -1372,7 +1372,7 @@ body {
 	transition: all 0.3s;
 }
 .b-catalog > li .params ul > li:hover {
-	color: #26a683;
+	color: #f4e34f;
 }
 .b-catalog > li .params ul > li.active {
 	background-color: #ffffff;
@@ -1511,11 +1511,11 @@ body {
 	transition: all 0.3s;
 }
 .b-catalog > li .select-param ul > li:hover {
-	color: #26a683;
+	color: #f4e34f;
 }
 .b-catalog > li .select-param ul > li.active {
 	color: #ffffff;
-	background-color: #26a683;
+	background-color: #f4e34f;
 }
 .b-catalog > li .select-param ul > li .img {
 	width: 35px;
@@ -1566,7 +1566,7 @@ body {
 	text-align: left;
 }
 .b-seo .b-title span {
-	border-bottom: 2px solid #a6ea00;
+	border-bottom: 2px solid #e30613;
 }
 
 
@@ -1976,7 +1976,7 @@ body {
 	margin-top: 5px;
 	font-size: 21px;
 	font-weight: 700;
-	color: #a6ea00;
+	color: #e30613;
 }
 .b-cart-souces > li .bottom {
 	width: 100%;
@@ -2087,7 +2087,7 @@ body {
 }
 .b-cart-bottom .sum mark {
 	background-color: transparent;
-	color: #a6ea00;
+	color: #e30613;
 }
 .b-cart-bottom .buttons {
 	display: -webkit-box;
@@ -2193,7 +2193,7 @@ body {
 	font-weight: 700;
 }
 .b-form-wrap .title .your-bonuses {
-	color: #a6ea00;
+	color: #e30613;
 }
 .b-form-flex {
 	display: -webkit-box;
@@ -2220,7 +2220,7 @@ body {
 .b-form-flex .info-price {
 	font-size: 18px;
 	font-weight: 700;
-	color: #a6ea00;
+	color: #e30613;
 }
 .b-form-flex .info-text {
 	margin-top: 10px;
@@ -2399,7 +2399,7 @@ body {
 }
 .b-select .chosen-container .chosen-results li.result-selected {
 	opacity: 1;
-	color: #a6ea00;
+	color: #e30613;
 }
 .title + .b-checkboxes {
 	margin-top: 25px;
@@ -2448,12 +2448,12 @@ body {
 	content: '';
 	width: 100%;
 	height: 100%;
-	border: 4px solid #a6ea00;
+	border: 4px solid #e30613;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 	background-image: url('../i/check-icon.svg');
-	background-color: #a6ea00;
+	background-color: #e30613;
 	position: absolute;
 	left: 0;
 	bottom: 100%;
@@ -2471,7 +2471,7 @@ body {
 	max-width: calc(100% - 45px);
 }
 .b-checkboxes > li label .b-checkbox .text a {
-	border-bottom: 1px solid #a6ea00;
+	border-bottom: 1px solid #e30613;
 }
 .b-checkboxes > li label .b-checkbox .text a:hover {
 	border-color: transparent;
@@ -2507,7 +2507,7 @@ body {
 	content: '';
 	width: 12px;
 	height: 12px;
-	background-color: #a6ea00;
+	background-color: #e30613;
 	border-radius: 50%;
 	position: absolute;
 	left: calc(50% - 6px);
@@ -2633,7 +2633,7 @@ body {
 	content: '';
 	width: 12px;
 	height: 12px;
-	background-color: #a6ea00;
+	background-color: #e30613;
 	border-radius: 50%;
 	position: absolute;
 	left: calc(50% - 6px);
@@ -2693,12 +2693,12 @@ body {
 	content: '';
 	width: 100%;
 	height: 100%;
-	border: 5px solid #a6ea00;
+	border: 5px solid #e30613;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 	background-image: url('../i/check-icon.svg');
-	background-color: #a6ea00;
+	background-color: #e30613;
 	position: absolute;
 	left: 0;
 	bottom: 100%;
@@ -2728,7 +2728,7 @@ body {
 	font-weight: 800;
 	color: #ffffff;
 	border-radius: 100px;
-	background-color: #a6ea00;
+	background-color: #e30613;
 	position: absolute;
 	left: 100%;
 	bottom: 50%;
@@ -2803,7 +2803,7 @@ body {
 	position: relative;
 	padding-right: 25px;
 	font-size: 18px;
-	color: #a6ea00;
+	color: #e30613;
 	cursor: pointer;
 }
 .b-order-comment .text:before {
@@ -3053,7 +3053,7 @@ body {
 .b-actions > li .promocode {
 	width: 100%;
 	padding: 0 20px;
-	color: #a6ea00;
+	color: #e30613;
 	font-size: 21px;
 	line-height: 1.2;
 	font-weight: 700;
@@ -3222,7 +3222,7 @@ body {
 	width: 7px;
 	height: 7px;
 	border-radius: 50%;
-	background-color: #a6ea00;
+	background-color: #e30613;
 	position: absolute;
 	left: 0;
 	top: 8px;
@@ -3251,12 +3251,12 @@ body {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	border: 10px solid #a6ea00;
+	border: 10px solid #e30613;
 	position: fixed;
 	z-index: 90;
 	right: 15px;
 	bottom: 15px;
-	background-color: #a6ea00;
+	background-color: #e30613;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -3275,9 +3275,9 @@ body {
 	position: absolute;
 	right: -12px;
 	top: -12px;
-	background-color: #000000;
-	border: 1px solid #a6ea00;
-	color: #a6ea00;
+	background-color: #ffffff;
+	border: 1px solid #e30613;
+	color: #e30613;
 	font-size: 12px;
 	overflow: hidden;
 }
@@ -3329,7 +3329,7 @@ body {
 	display: block;
 	font-size: 220px;
 	font-weight: 800;
-	color: #a6ea00;
+	color: #e30613;
 	line-height: 1;
 }
 .b-error .wrap .content .emoji {
