@@ -375,11 +375,39 @@ $(document).ready(function(){
 	}
 	ScrollEl();
 
+	function ScoresScroll(){
+		if ( $('.b-scores').length ){
+			var st = $(window).scrollTop();
+			var fh = $('.footer').outerHeight();
+
+			if (st > $('.footer').offset().top - $(window).outerHeight()){
+				$('.b-scores').addClass('bottom');
+				$('.b-scores').css('bottom',fh);
+			} else {
+				$('.b-scores').removeClass('bottom');
+				$('.b-scores').removeAttr('style');
+			}
+		}
+	}
+	ScoresScroll();
+
+	function ScoresTitle(){
+		if ( $('.b-scores').length ){
+			if ($(window).width() > 768){
+				$('.b-scores').find('.title').html('Копи баллы и&nbsp;экономь');
+			} else {
+				$('.b-scores').find('.title').html('Баллы');
+			}
+		}
+	}
+	ScoresTitle();
+
 	$(window).on('scroll',function(){
 		HeaderScroll();
 		MenuNavScroll();
 		MenuActiveItem();
 		ScrollEl();
+		ScoresScroll();
 	});
 
 	$(window).resize(function(){
@@ -387,6 +415,8 @@ $(document).ready(function(){
 		MenuNavScroll();
 		MenuActiveItem();
 		ScrollEl();
+		ScoresScroll();
+		ScoresTitle();
 	});
 
 });
